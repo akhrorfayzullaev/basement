@@ -6,6 +6,8 @@ public class UserDTO {
     private String last_name;
     private String login;
     private String password;
+    
+    Scanner scanner = new Scanner(System.in);
 
     public UserDTO(){}
     public UserDTO(int id, String first_name, String last_name, String login, String password){
